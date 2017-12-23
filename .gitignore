@@ -7,4 +7,4 @@ Plugin/Packages/**
 Plugin/protoc-*
 Plugin/swiftgrpc.log
 Plugin/echo.*.swift
-SwiftGRPC.xcodeproj
+#SwiftGRPC.xcodeproj
