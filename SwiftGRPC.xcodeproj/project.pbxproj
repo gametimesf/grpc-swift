@@ -6,31 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"SwiftGRPC::SwiftGRPCPackageTests::ProductTarget" /* SwiftGRPCPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_1673 /* Build configuration list for PBXAggregateTarget "SwiftGRPCPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_1676 /* PBXTargetDependency */,
-			);
-			name = SwiftGRPCPackageTests;
-			productName = SwiftGRPCPackageTests;
-		};
-		"zlib::zlib::ProductTarget" /* zlib */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_1678 /* Build configuration list for PBXAggregateTarget "zlib" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_1681 /* PBXTargetDependency */,
-			);
-			name = zlib;
-			productName = zlib;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		OBJ_1001 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::CgRPC::Product" /* CgRPC.framework */; };
 		OBJ_1002 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::BoringSSL::Product" /* BoringSSL.framework */; };
@@ -671,8 +646,6 @@
 		OBJ_1668 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_921 /* trees.c */; };
 		OBJ_1669 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_922 /* uncompr.c */; };
 		OBJ_1670 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_923 /* zutil.c */; };
-		OBJ_945 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_951 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_931 /* Package.swift */; };
 		OBJ_969 /* GRPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_899 /* GRPCTests.swift */; };
 		OBJ_971 /* gRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::gRPC::Product" /* gRPC.framework */; };
 		OBJ_972 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::CgRPC::Product" /* CgRPC.framework */; };
@@ -758,20 +731,6 @@
 			remoteInfo = BoringSSL;
 		};
 		AC78DAF41FEEE1C100075CE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "zlib::Czlib";
-			remoteInfo = Czlib;
-		};
-		AC78DAF51FEEE1C200075CE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftGRPC::gRPCTests";
-			remoteInfo = gRPCTests;
-		};
-		AC78DAF61FEEE1C200075CE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -3545,20 +3504,6 @@
 			productReference = "SwiftGRPC::CgRPC::Product" /* CgRPC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"SwiftGRPC::SwiftPMPackageDescription" /* SwiftGRPCPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_941 /* Build configuration list for PBXNativeTarget "SwiftGRPCPackageDescription" */;
-			buildPhases = (
-				OBJ_944 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftGRPCPackageDescription;
-			productName = SwiftGRPCPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
 		"SwiftGRPC::gRPC" /* gRPC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_983 /* Build configuration list for PBXNativeTarget "gRPC" */;
@@ -3614,20 +3559,6 @@
 			productReference = "zlib::Czlib::Product" /* Czlib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"zlib::SwiftPMPackageDescription" /* zlibPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_947 /* Build configuration list for PBXNativeTarget "zlibPackageDescription" */;
-			buildPhases = (
-				OBJ_950 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = zlibPackageDescription;
-			productName = zlibPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3653,15 +3584,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"SwiftGRPC::SwiftPMPackageDescription" /* SwiftGRPCPackageDescription */,
-				"zlib::SwiftPMPackageDescription" /* zlibPackageDescription */,
 				"SwiftGRPC::gRPCTests" /* gRPCTests */,
 				"SwiftGRPC::gRPC" /* gRPC */,
 				"SwiftGRPC::CgRPC" /* CgRPC */,
 				"SwiftGRPC::BoringSSL" /* BoringSSL */,
 				"zlib::Czlib" /* Czlib */,
-				"SwiftGRPC::SwiftGRPCPackageTests::ProductTarget" /* SwiftGRPCPackageTests */,
-				"zlib::zlib::ProductTarget" /* zlib */,
 			);
 		};
 /* End PBXProject section */
@@ -4321,22 +4248,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_944 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_945 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_950 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_951 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_968 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -4397,16 +4308,6 @@
 			isa = PBXTargetDependency;
 			target = "zlib::Czlib" /* Czlib */;
 			targetProxy = AC78DAEA1FEEE1C100075CE9 /* PBXContainerItemProxy */;
-		};
-		OBJ_1676 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftGRPC::gRPCTests" /* gRPCTests */;
-			targetProxy = AC78DAF51FEEE1C200075CE9 /* PBXContainerItemProxy */;
-		};
-		OBJ_1681 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "zlib::Czlib" /* Czlib */;
-			targetProxy = AC78DAF61FEEE1C200075CE9 /* PBXContainerItemProxy */;
 		};
 		OBJ_975 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4587,30 +4488,6 @@
 			};
 			name = Release;
 		};
-		OBJ_1674 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_1675 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_1679 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_1680 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4652,42 +4529,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				USE_HEADERMAP = NO;
-			};
-			name = Release;
-		};
-		OBJ_942 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		OBJ_943 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		OBJ_948 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		OBJ_949 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -4831,47 +4672,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_1673 /* Build configuration list for PBXAggregateTarget "SwiftGRPCPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_1674 /* Debug */,
-				OBJ_1675 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_1678 /* Build configuration list for PBXAggregateTarget "zlib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_1679 /* Debug */,
-				OBJ_1680 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		OBJ_2 /* Build configuration list for PBXProject "SwiftGRPC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
 				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_941 /* Build configuration list for PBXNativeTarget "SwiftGRPCPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_942 /* Debug */,
-				OBJ_943 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_947 /* Build configuration list for PBXNativeTarget "zlibPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_948 /* Debug */,
-				OBJ_949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
