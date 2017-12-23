@@ -7,6 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACCDB09F1FEEF67000863F24 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0761FEEF66F00863F24 /* LinuxMain.swift */; };
+		ACCDB0A01FEEF67000863F24 /* CzlibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0781FEEF66F00863F24 /* CzlibTests.swift */; };
+		ACCDB0A11FEEF67000863F24 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB07B1FEEF66F00863F24 /* Package.swift */; };
+		ACCDB0A21FEEF67000863F24 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB07E1FEEF66F00863F24 /* main.swift */; };
+		ACCDB0A31FEEF67000863F24 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0821FEEF66F00863F24 /* inflate.c */; };
+		ACCDB0A41FEEF67000863F24 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0831FEEF66F00863F24 /* compress.c */; };
+		ACCDB0A51FEEF67000863F24 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0841FEEF66F00863F24 /* deflate.c */; };
+		ACCDB0A61FEEF67000863F24 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08A1FEEF66F00863F24 /* gzread.c */; };
+		ACCDB0A71FEEF67000863F24 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08D1FEEF66F00863F24 /* crc32.c */; };
+		ACCDB0A81FEEF67000863F24 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08E1FEEF66F00863F24 /* infback.c */; };
+		ACCDB0A91FEEF67000863F24 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08F1FEEF66F00863F24 /* zutil.c */; };
+		ACCDB0AA1FEEF67000863F24 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0931FEEF66F00863F24 /* gzlib.c */; };
+		ACCDB0AB1FEEF67000863F24 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0951FEEF66F00863F24 /* inftrees.c */; };
+		ACCDB0AC1FEEF67000863F24 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0961FEEF66F00863F24 /* uncompr.c */; };
+		ACCDB0AD1FEEF67000863F24 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0971FEEF66F00863F24 /* gzwrite.c */; };
+		ACCDB0AE1FEEF67000863F24 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0981FEEF66F00863F24 /* trees.c */; };
+		ACCDB0AF1FEEF67000863F24 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0991FEEF66F00863F24 /* gzclose.c */; };
+		ACCDB0B01FEEF67000863F24 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB09B1FEEF66F00863F24 /* inffast.c */; };
+		ACCDB0B11FEEF67000863F24 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB09C1FEEF66F00863F24 /* adler32.c */; };
+		ACCDB0CC1FEEF70F00863F24 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0821FEEF66F00863F24 /* inflate.c */; };
+		ACCDB0CD1FEEF70F00863F24 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0831FEEF66F00863F24 /* compress.c */; };
+		ACCDB0CE1FEEF70F00863F24 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0841FEEF66F00863F24 /* deflate.c */; };
+		ACCDB0CF1FEEF70F00863F24 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08A1FEEF66F00863F24 /* gzread.c */; };
+		ACCDB0D01FEEF70F00863F24 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08D1FEEF66F00863F24 /* crc32.c */; };
+		ACCDB0D11FEEF70F00863F24 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08E1FEEF66F00863F24 /* infback.c */; };
+		ACCDB0D21FEEF70F00863F24 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08F1FEEF66F00863F24 /* zutil.c */; };
+		ACCDB0D31FEEF70F00863F24 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0931FEEF66F00863F24 /* gzlib.c */; };
+		ACCDB0D41FEEF70F00863F24 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0951FEEF66F00863F24 /* inftrees.c */; };
+		ACCDB0D51FEEF70F00863F24 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0961FEEF66F00863F24 /* uncompr.c */; };
+		ACCDB0D61FEEF70F00863F24 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0971FEEF66F00863F24 /* gzwrite.c */; };
+		ACCDB0D71FEEF70F00863F24 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0981FEEF66F00863F24 /* trees.c */; };
+		ACCDB0D81FEEF70F00863F24 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0991FEEF66F00863F24 /* gzclose.c */; };
+		ACCDB0D91FEEF70F00863F24 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB09B1FEEF66F00863F24 /* inffast.c */; };
+		ACCDB0DA1FEEF70F00863F24 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB09C1FEEF66F00863F24 /* adler32.c */; };
 		OBJ_1001 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::CgRPC::Product" /* CgRPC.framework */; };
 		OBJ_1002 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::BoringSSL::Product" /* BoringSSL.framework */; };
 		OBJ_1003 /* Czlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "zlib::Czlib::Product" /* Czlib.framework */; };
@@ -631,21 +665,6 @@
 		OBJ_1638 /* tls_method.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_351 /* tls_method.c */; };
 		OBJ_1639 /* tls_record.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_352 /* tls_record.c */; };
 		OBJ_1641 /* Czlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "zlib::Czlib::Product" /* Czlib.framework */; };
-		OBJ_1656 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_909 /* adler32.c */; };
-		OBJ_1657 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_910 /* compress.c */; };
-		OBJ_1658 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_911 /* crc32.c */; };
-		OBJ_1659 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_912 /* deflate.c */; };
-		OBJ_1660 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_913 /* gzclose.c */; };
-		OBJ_1661 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_914 /* gzlib.c */; };
-		OBJ_1662 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_915 /* gzread.c */; };
-		OBJ_1663 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_916 /* gzwrite.c */; };
-		OBJ_1664 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_917 /* infback.c */; };
-		OBJ_1665 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_918 /* inffast.c */; };
-		OBJ_1666 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_919 /* inflate.c */; };
-		OBJ_1667 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_920 /* inftrees.c */; };
-		OBJ_1668 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_921 /* trees.c */; };
-		OBJ_1669 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_922 /* uncompr.c */; };
-		OBJ_1670 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_923 /* zutil.c */; };
 		OBJ_969 /* GRPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_899 /* GRPCTests.swift */; };
 		OBJ_971 /* gRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::gRPC::Product" /* gRPC.framework */; };
 		OBJ_972 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::CgRPC::Product" /* CgRPC.framework */; };
@@ -740,6 +759,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACCDB0741FEEF66F00863F24 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		ACCDB0761FEEF66F00863F24 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
+		ACCDB0781FEEF66F00863F24 /* CzlibTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CzlibTests.swift; sourceTree = "<group>"; };
+		ACCDB0791FEEF66F00863F24 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ACCDB07A1FEEF66F00863F24 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ACCDB07B1FEEF66F00863F24 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		ACCDB07E1FEEF66F00863F24 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ACCDB0801FEEF66F00863F24 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		ACCDB0811FEEF66F00863F24 /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		ACCDB0821FEEF66F00863F24 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		ACCDB0831FEEF66F00863F24 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		ACCDB0841FEEF66F00863F24 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		ACCDB0851FEEF66F00863F24 /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		ACCDB0871FEEF66F00863F24 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		ACCDB0881FEEF66F00863F24 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		ACCDB0891FEEF66F00863F24 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		ACCDB08A1FEEF66F00863F24 /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
+		ACCDB08B1FEEF66F00863F24 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		ACCDB08C1FEEF66F00863F24 /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		ACCDB08D1FEEF66F00863F24 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		ACCDB08E1FEEF66F00863F24 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
+		ACCDB08F1FEEF66F00863F24 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		ACCDB0901FEEF66F00863F24 /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		ACCDB0911FEEF66F00863F24 /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
+		ACCDB0921FEEF66F00863F24 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		ACCDB0931FEEF66F00863F24 /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
+		ACCDB0941FEEF66F00863F24 /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		ACCDB0951FEEF66F00863F24 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		ACCDB0961FEEF66F00863F24 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		ACCDB0971FEEF66F00863F24 /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
+		ACCDB0981FEEF66F00863F24 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		ACCDB0991FEEF66F00863F24 /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
+		ACCDB09A1FEEF66F00863F24 /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
+		ACCDB09B1FEEF66F00863F24 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		ACCDB09C1FEEF66F00863F24 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		ACCDB09D1FEEF66F00863F24 /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		ACCDB09E1FEEF66F00863F24 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		OBJ_100 /* e_ssl3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_ssl3.c; sourceTree = "<group>"; };
 		OBJ_101 /* e_tls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_tls.c; sourceTree = "<group>"; };
 		OBJ_102 /* tls_cbc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tls_cbc.c; sourceTree = "<group>"; };
@@ -1504,30 +1560,9 @@
 		OBJ_903 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
 		OBJ_904 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = SOURCE_ROOT; };
 		OBJ_905 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
-		OBJ_909 /* adler32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
 		OBJ_91 /* aead.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aead.c; sourceTree = "<group>"; };
-		OBJ_910 /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
-		OBJ_911 /* crc32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
-		OBJ_912 /* deflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
-		OBJ_913 /* gzclose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
-		OBJ_914 /* gzlib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
-		OBJ_915 /* gzread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
-		OBJ_916 /* gzwrite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
-		OBJ_917 /* infback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
-		OBJ_918 /* inffast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
-		OBJ_919 /* inflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
 		OBJ_92 /* cipher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cipher.c; sourceTree = "<group>"; };
-		OBJ_920 /* inftrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
-		OBJ_921 /* trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
-		OBJ_922 /* uncompr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
-		OBJ_923 /* zutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
-		OBJ_925 /* zutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
-		OBJ_926 /* zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
-		OBJ_927 /* zconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
-		OBJ_928 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/bilaly/Documents/bilal/bilalyaylak/grpc-swift/SwiftGRPC.xcodeproj/GeneratedModuleMap/Czlib/module.modulemap"; sourceTree = "<group>"; };
 		OBJ_93 /* derive_key.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = derive_key.c; sourceTree = "<group>"; };
-		OBJ_930 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_931 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/bilaly/Documents/bilal/bilalyaylak/grpc-swift/.build/checkouts/zlib.git--9016602441419864029/Package.swift"; sourceTree = "<group>"; };
 		OBJ_94 /* e_aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes.c; sourceTree = "<group>"; };
 		OBJ_95 /* e_chacha20poly1305.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_chacha20poly1305.c; sourceTree = "<group>"; };
 		OBJ_96 /* e_des.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_des.c; sourceTree = "<group>"; };
@@ -1590,6 +1625,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACCDB0731FEEF66F00863F24 /* CZlib */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDB0741FEEF66F00863F24 /* .swift-version */,
+				ACCDB0751FEEF66F00863F24 /* Tests */,
+				ACCDB0791FEEF66F00863F24 /* README.md */,
+				ACCDB07A1FEEF66F00863F24 /* .gitignore */,
+				ACCDB07B1FEEF66F00863F24 /* Package.swift */,
+				ACCDB07C1FEEF66F00863F24 /* Sources */,
+				ACCDB09E1FEEF66F00863F24 /* .travis.yml */,
+			);
+			path = CZlib;
+			sourceTree = "<group>";
+		};
+		ACCDB0751FEEF66F00863F24 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDB0761FEEF66F00863F24 /* LinuxMain.swift */,
+				ACCDB0771FEEF66F00863F24 /* CzlibTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		ACCDB0771FEEF66F00863F24 /* CzlibTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDB0781FEEF66F00863F24 /* CzlibTests.swift */,
+			);
+			path = CzlibTests;
+			sourceTree = "<group>";
+		};
+		ACCDB07C1FEEF66F00863F24 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDB07D1FEEF66F00863F24 /* zlib-example */,
+				ACCDB07F1FEEF66F00863F24 /* Czlib */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ACCDB07D1FEEF66F00863F24 /* zlib-example */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDB07E1FEEF66F00863F24 /* main.swift */,
+			);
+			path = "zlib-example";
+			sourceTree = "<group>";
+		};
+		ACCDB07F1FEEF66F00863F24 /* Czlib */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDB0801FEEF66F00863F24 /* zutil.h */,
+				ACCDB0811FEEF66F00863F24 /* inftrees.h */,
+				ACCDB0821FEEF66F00863F24 /* inflate.c */,
+				ACCDB0831FEEF66F00863F24 /* compress.c */,
+				ACCDB0841FEEF66F00863F24 /* deflate.c */,
+				ACCDB0851FEEF66F00863F24 /* inffixed.h */,
+				ACCDB0861FEEF66F00863F24 /* include */,
+				ACCDB08A1FEEF66F00863F24 /* gzread.c */,
+				ACCDB08B1FEEF66F00863F24 /* trees.h */,
+				ACCDB08C1FEEF66F00863F24 /* inffast.h */,
+				ACCDB08D1FEEF66F00863F24 /* crc32.c */,
+				ACCDB08E1FEEF66F00863F24 /* infback.c */,
+				ACCDB08F1FEEF66F00863F24 /* zutil.c */,
+				ACCDB0901FEEF66F00863F24 /* deflate.h */,
+				ACCDB0911FEEF66F00863F24 /* gzguts.h */,
+				ACCDB0921FEEF66F00863F24 /* zlib.h */,
+				ACCDB0931FEEF66F00863F24 /* gzlib.c */,
+				ACCDB0941FEEF66F00863F24 /* inflate.h */,
+				ACCDB0951FEEF66F00863F24 /* inftrees.c */,
+				ACCDB0961FEEF66F00863F24 /* uncompr.c */,
+				ACCDB0971FEEF66F00863F24 /* gzwrite.c */,
+				ACCDB0981FEEF66F00863F24 /* trees.c */,
+				ACCDB0991FEEF66F00863F24 /* gzclose.c */,
+				ACCDB09A1FEEF66F00863F24 /* crc32.h */,
+				ACCDB09B1FEEF66F00863F24 /* inffast.c */,
+				ACCDB09C1FEEF66F00863F24 /* adler32.c */,
+				ACCDB09D1FEEF66F00863F24 /* zconf.h */,
+			);
+			path = Czlib;
+			sourceTree = "<group>";
+		};
+		ACCDB0861FEEF66F00863F24 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				ACCDB0871FEEF66F00863F24 /* zutil.h */,
+				ACCDB0881FEEF66F00863F24 /* zlib.h */,
+				ACCDB0891FEEF66F00863F24 /* zconf.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* aes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2400,6 +2527,7 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
+				ACCDB0731FEEF66F00863F24 /* CZlib */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_897 /* Tests */,
@@ -2409,7 +2537,6 @@
 				OBJ_903 /* Examples */,
 				OBJ_904 /* scripts */,
 				OBJ_905 /* Assets */,
-				OBJ_906 /* Dependencies */,
 				OBJ_932 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -3392,68 +3519,6 @@
 			path = cipher;
 			sourceTree = "<group>";
 		};
-		OBJ_906 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_907 /* zlib 0.4.0 */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		OBJ_907 /* zlib 0.4.0 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_908 /* Czlib */,
-				OBJ_929 /* zlib-example */,
-				OBJ_931 /* Package.swift */,
-			);
-			name = "zlib 0.4.0";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_908 /* Czlib */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_909 /* adler32.c */,
-				OBJ_910 /* compress.c */,
-				OBJ_911 /* crc32.c */,
-				OBJ_912 /* deflate.c */,
-				OBJ_913 /* gzclose.c */,
-				OBJ_914 /* gzlib.c */,
-				OBJ_915 /* gzread.c */,
-				OBJ_916 /* gzwrite.c */,
-				OBJ_917 /* infback.c */,
-				OBJ_918 /* inffast.c */,
-				OBJ_919 /* inflate.c */,
-				OBJ_920 /* inftrees.c */,
-				OBJ_921 /* trees.c */,
-				OBJ_922 /* uncompr.c */,
-				OBJ_923 /* zutil.c */,
-				OBJ_924 /* include */,
-			);
-			name = Czlib;
-			path = ".build/checkouts/zlib.git--9016602441419864029/Sources/Czlib";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_924 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_925 /* zutil.h */,
-				OBJ_926 /* zlib.h */,
-				OBJ_927 /* zconf.h */,
-				OBJ_928 /* module.modulemap */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		OBJ_929 /* zlib-example */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_930 /* main.swift */,
-			);
-			name = "zlib-example";
-			path = ".build/checkouts/zlib.git--9016602441419864029/Sources/zlib-example";
-			sourceTree = SOURCE_ROOT;
-		};
 		OBJ_932 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -4230,21 +4295,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_1656 /* adler32.c in Sources */,
-				OBJ_1657 /* compress.c in Sources */,
-				OBJ_1658 /* crc32.c in Sources */,
-				OBJ_1659 /* deflate.c in Sources */,
-				OBJ_1660 /* gzclose.c in Sources */,
-				OBJ_1661 /* gzlib.c in Sources */,
-				OBJ_1662 /* gzread.c in Sources */,
-				OBJ_1663 /* gzwrite.c in Sources */,
-				OBJ_1664 /* infback.c in Sources */,
-				OBJ_1665 /* inffast.c in Sources */,
-				OBJ_1666 /* inflate.c in Sources */,
-				OBJ_1667 /* inftrees.c in Sources */,
-				OBJ_1668 /* trees.c in Sources */,
-				OBJ_1669 /* uncompr.c in Sources */,
-				OBJ_1670 /* zutil.c in Sources */,
+				ACCDB0CC1FEEF70F00863F24 /* inflate.c in Sources */,
+				ACCDB0CD1FEEF70F00863F24 /* compress.c in Sources */,
+				ACCDB0CE1FEEF70F00863F24 /* deflate.c in Sources */,
+				ACCDB0CF1FEEF70F00863F24 /* gzread.c in Sources */,
+				ACCDB0D01FEEF70F00863F24 /* crc32.c in Sources */,
+				ACCDB0D11FEEF70F00863F24 /* infback.c in Sources */,
+				ACCDB0D21FEEF70F00863F24 /* zutil.c in Sources */,
+				ACCDB0D31FEEF70F00863F24 /* gzlib.c in Sources */,
+				ACCDB0D41FEEF70F00863F24 /* inftrees.c in Sources */,
+				ACCDB0D51FEEF70F00863F24 /* uncompr.c in Sources */,
+				ACCDB0D61FEEF70F00863F24 /* gzwrite.c in Sources */,
+				ACCDB0D71FEEF70F00863F24 /* trees.c in Sources */,
+				ACCDB0D81FEEF70F00863F24 /* gzclose.c in Sources */,
+				ACCDB0D91FEEF70F00863F24 /* inffast.c in Sources */,
+				ACCDB0DA1FEEF70F00863F24 /* adler32.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4252,7 +4317,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				ACCDB0A91FEEF67000863F24 /* zutil.c in Sources */,
+				ACCDB0A11FEEF67000863F24 /* Package.swift in Sources */,
+				ACCDB0A21FEEF67000863F24 /* main.swift in Sources */,
+				ACCDB0AF1FEEF67000863F24 /* gzclose.c in Sources */,
+				ACCDB0AB1FEEF67000863F24 /* inftrees.c in Sources */,
+				ACCDB0A61FEEF67000863F24 /* gzread.c in Sources */,
+				ACCDB0A71FEEF67000863F24 /* crc32.c in Sources */,
+				ACCDB0AD1FEEF67000863F24 /* gzwrite.c in Sources */,
 				OBJ_969 /* GRPCTests.swift in Sources */,
+				ACCDB09F1FEEF67000863F24 /* LinuxMain.swift in Sources */,
+				ACCDB0A01FEEF67000863F24 /* CzlibTests.swift in Sources */,
+				ACCDB0AA1FEEF67000863F24 /* gzlib.c in Sources */,
+				ACCDB0A31FEEF67000863F24 /* inflate.c in Sources */,
+				ACCDB0B01FEEF67000863F24 /* inffast.c in Sources */,
+				ACCDB0A81FEEF67000863F24 /* infback.c in Sources */,
+				ACCDB0AC1FEEF67000863F24 /* uncompr.c in Sources */,
+				ACCDB0A41FEEF67000863F24 /* compress.c in Sources */,
+				ACCDB0AE1FEEF67000863F24 /* trees.c in Sources */,
+				ACCDB0A51FEEF67000863F24 /* deflate.c in Sources */,
+				ACCDB0B11FEEF67000863F24 /* adler32.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

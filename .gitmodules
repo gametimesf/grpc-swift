@@ -1,0 +1,3 @@
+[submodule "CZlib"]
+	path = CZlib
+	url = https://github.com/ZewoGraveyard/CZlib
