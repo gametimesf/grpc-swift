@@ -1,4 +1,4 @@
 module Czlib {
-    umbrella "../../../../grpc-swift/CZlib/Sources/Czlib/include"
+    umbrella "../../../CZlib/Sources/Czlib/include"
     export *
 }
