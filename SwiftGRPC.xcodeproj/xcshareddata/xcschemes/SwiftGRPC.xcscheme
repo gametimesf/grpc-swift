@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SwiftGRPC::gRPC"
-               BuildableName = "gRPC.framework"
-               BlueprintName = "gRPC"
-               ReferencedContainer = "container:SwiftGRPC.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SwiftGRPC::CgRPC"
-               BuildableName = "CgRPC.framework"
-               BlueprintName = "CgRPC"
+               BlueprintIdentifier = "zlib::Czlib"
+               BuildableName = "Czlib.framework"
+               BlueprintName = "Czlib"
                ReferencedContainer = "container:SwiftGRPC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,9 +42,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "zlib::Czlib"
-               BuildableName = "Czlib.framework"
-               BlueprintName = "Czlib"
+               BlueprintIdentifier = "SwiftGRPC::CgRPC"
+               BuildableName = "CgRPC.framework"
+               BlueprintName = "CgRPC"
+               ReferencedContainer = "container:SwiftGRPC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SwiftGRPC::gRPC"
+               BuildableName = "gRPC.framework"
+               BlueprintName = "gRPC"
+               ReferencedContainer = "container:SwiftGRPC.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SwiftGRPC::gRPCTests"
+               BuildableName = "gRPCTests.xctest"
+               BlueprintName = "gRPCTests"
                ReferencedContainer = "container:SwiftGRPC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -71,23 +85,13 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SwiftGRPC::gRPCTests"
-               BuildableName = "gRPCTests.xctest"
-               BlueprintName = "gRPCTests"
-               ReferencedContainer = "container:SwiftGRPC.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SwiftGRPC::RootsEncoder"
-            BuildableName = "RootsEncoder"
-            BlueprintName = "RootsEncoder"
+            BlueprintIdentifier = "SwiftGRPC::gRPC"
+            BuildableName = "gRPC.framework"
+            BlueprintName = "gRPC"
             ReferencedContainer = "container:SwiftGRPC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -105,6 +109,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "SwiftGRPC::gRPC"
+            BuildableName = "gRPC.framework"
+            BlueprintName = "gRPC"
+            ReferencedContainer = "container:SwiftGRPC.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -114,6 +127,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "SwiftGRPC::gRPC"
+            BuildableName = "gRPC.framework"
+            BlueprintName = "gRPC"
+            ReferencedContainer = "container:SwiftGRPC.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
