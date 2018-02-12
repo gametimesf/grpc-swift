@@ -7,25 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACCDB09F1FEEF67000863F24 /* LinuxMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0761FEEF66F00863F24 /* LinuxMain.swift */; };
-		ACCDB0A01FEEF67000863F24 /* CzlibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0781FEEF66F00863F24 /* CzlibTests.swift */; };
-		ACCDB0A11FEEF67000863F24 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB07B1FEEF66F00863F24 /* Package.swift */; };
-		ACCDB0A21FEEF67000863F24 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB07E1FEEF66F00863F24 /* main.swift */; };
-		ACCDB0A31FEEF67000863F24 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0821FEEF66F00863F24 /* inflate.c */; };
-		ACCDB0A41FEEF67000863F24 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0831FEEF66F00863F24 /* compress.c */; };
-		ACCDB0A51FEEF67000863F24 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0841FEEF66F00863F24 /* deflate.c */; };
-		ACCDB0A61FEEF67000863F24 /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08A1FEEF66F00863F24 /* gzread.c */; };
-		ACCDB0A71FEEF67000863F24 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08D1FEEF66F00863F24 /* crc32.c */; };
-		ACCDB0A81FEEF67000863F24 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08E1FEEF66F00863F24 /* infback.c */; };
-		ACCDB0A91FEEF67000863F24 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB08F1FEEF66F00863F24 /* zutil.c */; };
-		ACCDB0AA1FEEF67000863F24 /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0931FEEF66F00863F24 /* gzlib.c */; };
-		ACCDB0AB1FEEF67000863F24 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0951FEEF66F00863F24 /* inftrees.c */; };
-		ACCDB0AC1FEEF67000863F24 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0961FEEF66F00863F24 /* uncompr.c */; };
-		ACCDB0AD1FEEF67000863F24 /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0971FEEF66F00863F24 /* gzwrite.c */; };
-		ACCDB0AE1FEEF67000863F24 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0981FEEF66F00863F24 /* trees.c */; };
-		ACCDB0AF1FEEF67000863F24 /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0991FEEF66F00863F24 /* gzclose.c */; };
-		ACCDB0B01FEEF67000863F24 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB09B1FEEF66F00863F24 /* inffast.c */; };
-		ACCDB0B11FEEF67000863F24 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB09C1FEEF66F00863F24 /* adler32.c */; };
 		ACCDB0CC1FEEF70F00863F24 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0821FEEF66F00863F24 /* inflate.c */; };
 		ACCDB0CD1FEEF70F00863F24 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0831FEEF66F00863F24 /* compress.c */; };
 		ACCDB0CE1FEEF70F00863F24 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = ACCDB0841FEEF66F00863F24 /* deflate.c */; };
@@ -665,11 +646,6 @@
 		OBJ_1638 /* tls_method.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_351 /* tls_method.c */; };
 		OBJ_1639 /* tls_record.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_352 /* tls_record.c */; };
 		OBJ_1641 /* Czlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "zlib::Czlib::Product" /* Czlib.framework */; };
-		OBJ_969 /* GRPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_899 /* GRPCTests.swift */; };
-		OBJ_971 /* gRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::gRPC::Product" /* gRPC.framework */; };
-		OBJ_972 /* CgRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::CgRPC::Product" /* CgRPC.framework */; };
-		OBJ_973 /* BoringSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftGRPC::BoringSSL::Product" /* BoringSSL.framework */; };
-		OBJ_974 /* Czlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "zlib::Czlib::Product" /* Czlib.framework */; };
 		OBJ_987 /* ByteBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_882 /* ByteBuffer.swift */; };
 		OBJ_988 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_883 /* Call.swift */; };
 		OBJ_989 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_884 /* Channel.swift */; };
@@ -722,34 +698,6 @@
 			remoteInfo = BoringSSL;
 		};
 		AC78DAEF1FEEE1C100075CE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "zlib::Czlib";
-			remoteInfo = Czlib;
-		};
-		AC78DAF01FEEE1C100075CE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftGRPC::gRPC";
-			remoteInfo = gRPC;
-		};
-		AC78DAF11FEEE1C100075CE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftGRPC::CgRPC";
-			remoteInfo = CgRPC;
-		};
-		AC78DAF21FEEE1C100075CE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "SwiftGRPC::BoringSSL";
-			remoteInfo = BoringSSL;
-		};
-		AC78DAF41FEEE1C100075CE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -1572,7 +1520,6 @@
 		"SwiftGRPC::BoringSSL::Product" /* BoringSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BoringSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftGRPC::CgRPC::Product" /* CgRPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CgRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftGRPC::gRPC::Product" /* gRPC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = gRPC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SwiftGRPC::gRPCTests::Product" /* gRPCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = gRPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"zlib::Czlib::Product" /* Czlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Czlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1608,17 +1555,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_970 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_971 /* gRPC.framework in Frameworks */,
-				OBJ_972 /* CgRPC.framework in Frameworks */,
-				OBJ_973 /* BoringSSL.framework in Frameworks */,
-				OBJ_974 /* Czlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3522,7 +3458,6 @@
 		OBJ_932 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"SwiftGRPC::gRPCTests::Product" /* gRPCTests.xctest */,
 				"SwiftGRPC::gRPC::Product" /* gRPC.framework */,
 				"SwiftGRPC::CgRPC::Product" /* CgRPC.framework */,
 				"SwiftGRPC::BoringSSL::Product" /* BoringSSL.framework */,
@@ -3588,26 +3523,6 @@
 			productReference = "SwiftGRPC::gRPC::Product" /* gRPC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"SwiftGRPC::gRPCTests" /* gRPCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_965 /* Build configuration list for PBXNativeTarget "gRPCTests" */;
-			buildPhases = (
-				OBJ_968 /* Sources */,
-				OBJ_970 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_975 /* PBXTargetDependency */,
-				OBJ_977 /* PBXTargetDependency */,
-				OBJ_979 /* PBXTargetDependency */,
-				OBJ_982 /* PBXTargetDependency */,
-			);
-			name = gRPCTests;
-			productName = gRPCTests;
-			productReference = "SwiftGRPC::gRPCTests::Product" /* gRPCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		"zlib::Czlib" /* Czlib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_1652 /* Build configuration list for PBXNativeTarget "Czlib" */;
@@ -3631,11 +3546,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-					"SwiftGRPC::gRPCTests" = {
-						LastSwiftMigration = 0920;
-					};
-				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftGRPC" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -3649,7 +3559,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"SwiftGRPC::gRPCTests" /* gRPCTests */,
 				"SwiftGRPC::gRPC" /* gRPC */,
 				"SwiftGRPC::CgRPC" /* CgRPC */,
 				"SwiftGRPC::BoringSSL" /* BoringSSL */,
@@ -4313,33 +4222,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_968 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				ACCDB0A91FEEF67000863F24 /* zutil.c in Sources */,
-				ACCDB0A11FEEF67000863F24 /* Package.swift in Sources */,
-				ACCDB0A21FEEF67000863F24 /* main.swift in Sources */,
-				ACCDB0AF1FEEF67000863F24 /* gzclose.c in Sources */,
-				ACCDB0AB1FEEF67000863F24 /* inftrees.c in Sources */,
-				ACCDB0A61FEEF67000863F24 /* gzread.c in Sources */,
-				ACCDB0A71FEEF67000863F24 /* crc32.c in Sources */,
-				ACCDB0AD1FEEF67000863F24 /* gzwrite.c in Sources */,
-				OBJ_969 /* GRPCTests.swift in Sources */,
-				ACCDB09F1FEEF67000863F24 /* LinuxMain.swift in Sources */,
-				ACCDB0A01FEEF67000863F24 /* CzlibTests.swift in Sources */,
-				ACCDB0AA1FEEF67000863F24 /* gzlib.c in Sources */,
-				ACCDB0A31FEEF67000863F24 /* inflate.c in Sources */,
-				ACCDB0B01FEEF67000863F24 /* inffast.c in Sources */,
-				ACCDB0A81FEEF67000863F24 /* infback.c in Sources */,
-				ACCDB0AC1FEEF67000863F24 /* uncompr.c in Sources */,
-				ACCDB0A41FEEF67000863F24 /* compress.c in Sources */,
-				ACCDB0AE1FEEF67000863F24 /* trees.c in Sources */,
-				ACCDB0A51FEEF67000863F24 /* deflate.c in Sources */,
-				ACCDB0B11FEEF67000863F24 /* adler32.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_986 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -4392,26 +4274,6 @@
 			isa = PBXTargetDependency;
 			target = "zlib::Czlib" /* Czlib */;
 			targetProxy = AC78DAEA1FEEE1C100075CE9 /* PBXContainerItemProxy */;
-		};
-		OBJ_975 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftGRPC::gRPC" /* gRPC */;
-			targetProxy = AC78DAF01FEEE1C100075CE9 /* PBXContainerItemProxy */;
-		};
-		OBJ_977 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftGRPC::CgRPC" /* CgRPC */;
-			targetProxy = AC78DAF11FEEE1C100075CE9 /* PBXContainerItemProxy */;
-		};
-		OBJ_979 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftGRPC::BoringSSL" /* BoringSSL */;
-			targetProxy = AC78DAF21FEEE1C100075CE9 /* PBXContainerItemProxy */;
-		};
-		OBJ_982 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "zlib::Czlib" /* Czlib */;
-			targetProxy = AC78DAF41FEEE1C100075CE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4616,58 +4478,6 @@
 			};
 			name = Release;
 		};
-		OBJ_966 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CgRPC/include",
-					"$(SRCROOT)/Sources/BoringSSL/include",
-					"$(SRCROOT)/.build/checkouts/zlib.git--9016602441419864029/Sources/Czlib/include",
-					"$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL",
-					"$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/Czlib",
-				);
-				INFOPLIST_FILE = SwiftGRPC.xcodeproj/gRPCTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/Czlib/module.modulemap";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = gRPCTests;
-			};
-			name = Debug;
-		};
-		OBJ_967 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/CgRPC/include",
-					"$(SRCROOT)/Sources/BoringSSL/include",
-					"$(SRCROOT)/.build/checkouts/zlib.git--9016602441419864029/Sources/Czlib/include",
-					"$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL",
-					"$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/Czlib",
-				);
-				INFOPLIST_FILE = SwiftGRPC.xcodeproj/gRPCTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/Czlib/module.modulemap";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = gRPCTests;
-			};
-			name = Release;
-		};
 		OBJ_984 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4761,15 +4571,6 @@
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
 				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_965 /* Build configuration list for PBXNativeTarget "gRPCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_966 /* Debug */,
-				OBJ_967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
