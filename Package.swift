@@ -49,4 +49,5 @@ let package = Package(
             dependencies: ["SwiftGRPC", "Commander"],
             path: "Sources/Examples/Simple"),
     .testTarget(name: "SwiftGRPCTests", dependencies: ["SwiftGRPC"])
-  ])
+  ]
+)
