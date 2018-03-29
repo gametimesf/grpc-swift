@@ -1307,7 +1307,7 @@
 		OBJ_424 /* ex_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ex_data.h; sourceTree = "<group>"; };
 		OBJ_425 /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
 		OBJ_426 /* stack_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack_macros.h; sourceTree = "<group>"; };
-		OBJ_427 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Sources/BoringSSL/module.modulemap; sourceTree = SOURCE_ROOT; };
+		OBJ_427 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Sources/BoringSSL/include/module.modulemap; sourceTree = SOURCE_ROOT; };
 		OBJ_43 /* tasn_typ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_typ.c; sourceTree = "<group>"; };
 		OBJ_430 /* byte_buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = byte_buffer.c; sourceTree = "<group>"; };
 		OBJ_431 /* call.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = call.c; sourceTree = "<group>"; };
