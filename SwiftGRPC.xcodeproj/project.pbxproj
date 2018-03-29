@@ -1307,7 +1307,7 @@
 		OBJ_424 /* ex_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ex_data.h; sourceTree = "<group>"; };
 		OBJ_425 /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
 		OBJ_426 /* stack_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack_macros.h; sourceTree = "<group>"; };
-		OBJ_427 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/mikesilvis/Desktop/grpc-swift/SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_427 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Sources/BoringSSL/module.modulemap; sourceTree = SOURCE_ROOT; };
 		OBJ_43 /* tasn_typ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_typ.c; sourceTree = "<group>"; };
 		OBJ_430 /* byte_buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = byte_buffer.c; sourceTree = "<group>"; };
 		OBJ_431 /* call.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = call.c; sourceTree = "<group>"; };
@@ -1736,7 +1736,7 @@
 		OBJ_889 /* connectivity_state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectivity_state.h; sourceTree = "<group>"; };
 		OBJ_89 /* chacha.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chacha.c; sourceTree = "<group>"; };
 		OBJ_890 /* sync_windows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sync_windows.h; sourceTree = "<group>"; };
-		OBJ_891 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/mikesilvis/Desktop/grpc-swift/Sources/CgRPC/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_891 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Sources/CgRPC/include/module.modulemap; sourceTree = SOURCE_ROOT; };
 		OBJ_894 /* ByteBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteBuffer.swift; sourceTree = "<group>"; };
 		OBJ_895 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
 		OBJ_896 /* CallError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallError.swift; sourceTree = "<group>"; };
@@ -2791,7 +2791,7 @@
 			path = c_ares;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -2806,7 +2806,6 @@
 				OBJ_1101 /* Products */,
 			);
 			indentWidth = 2;
-			name = "";
 			sourceTree = "<group>";
 			tabWidth = 2;
 			usesTabs = 0;
@@ -4210,7 +4209,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_1101 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
