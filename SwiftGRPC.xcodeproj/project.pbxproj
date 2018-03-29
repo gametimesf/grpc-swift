@@ -992,7 +992,7 @@
 		OBJ_1099 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_11 /* aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
 		OBJ_110 /* cpu-intel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "cpu-intel.c"; sourceTree = "<group>"; };
-		OBJ_1100 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/mikesilvis/Desktop/grpc-swift/.build/checkouts/swift-protobuf.git--7219529775138357838/Package.swift"; sourceTree = "<group>"; };
+		OBJ_1100 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = depends/SwiftProtobuf/Package.swift; sourceTree = SOURCE_ROOT; };
 		OBJ_111 /* cpu-ppc64le.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "cpu-ppc64le.c"; sourceTree = "<group>"; };
 		OBJ_112 /* crypto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
 		OBJ_114 /* curve25519.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = curve25519.c; sourceTree = "<group>"; };
@@ -1820,7 +1820,7 @@
 		OBJ_978 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		OBJ_979 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		OBJ_98 /* e_rc2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc2.c; sourceTree = "<group>"; };
-		OBJ_980 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/mikesilvis/Desktop/grpc-swift/.build/checkouts/Commander.git-8842944228949165507/Package.swift"; sourceTree = "<group>"; };
+		OBJ_980 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = depends/Commander/Package.swift; sourceTree = "<group>"; };
 		OBJ_983 /* AnyMessageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyMessageStorage.swift; sourceTree = "<group>"; };
 		OBJ_984 /* AnyUnpackError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUnpackError.swift; sourceTree = "<group>"; };
 		OBJ_985 /* BinaryDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecoder.swift; sourceTree = "<group>"; };
